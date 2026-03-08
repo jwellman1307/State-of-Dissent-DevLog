@@ -42,14 +42,14 @@ The game runs on an in-game clock that progresses throughout the day.
 Days advance when the player chooses to sleep.
 
 ### Work and Income System
-Players can interact with a workplace terminal to complete a work shift and earn money.
+Players can interact with a workplace terminal to complete a work shift advancing the day and earning money.
 
 Pay varies depending on the time the player arrives for their shift.
 
 ### Stress System
 Player actions such as running or working increase stress.
 
-High stress represents the physical and mental toll of daily life.
+High stress represents the physical and mental toll of daily life. Too much stress will decrease morale. Very little to no stress will increase morale.
 
 ### Morale System
 Morale represents the player's emotional wellbeing.
@@ -59,7 +59,7 @@ Stress and life circumstances affect morale.
 ### Stamina System
 Stamina determines how long the player can sprint before becoming exhausted.
 
-When stamina is depleted the player is forced to walk until recovery.
+When stamina is depleted the player is forced to walk until recovery and gain stress from depleting stamina.
 
 ### Sleep System
 Players can return to their apartment and sleep to advance to the next day.
@@ -115,6 +115,10 @@ Planned mechanics include:
 - TV news broadcasts and world updates
 - City decay and unrest indicators
 - Protest and civil tension mechanics
+- Taking care of elderly grandfather
+- Neighbor events
+- Romantic interests
+- Multiple Endings
 
 These systems will gradually transform the city into a **living simulation that reacts to player actions and world conditions**.
 
@@ -143,8 +147,6 @@ Development tools for the project include:
 
 **July Wellman**
 
-Computer Science Student – Southern New Hampshire University  
-Senior Operations Trainer – Symbotic
 
 This project is part of an ongoing effort to develop skills in **game systems design, simulation mechanics, and interactive world development**.
 
