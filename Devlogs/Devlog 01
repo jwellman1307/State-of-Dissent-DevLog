@@ -1,0 +1,85 @@
+# Devlog – March 8, 2026
+
+## Overview
+This devlog summarizes the first two weeks of development on State of Dissent.
+
+---
+
+## Week One
+- Implemented player camera and walking controls. 
+- Implemented player sprint.
+- Implemented player interaction with couch and work terminal. 
+- Laid assets for the first two blocks: residential and commercial plaza block.
+- Created the railroad blockout to outline the limits of the town.
+- Implemented the day and time cycle.
+- Implemented loop for interacting with couch and sleeping
+
+## Week Two
+- Implemented the Money system.
+- Implemented loop for working, earning, money. 
+- Added text pop up for showing up to work too early. 
+- Added text pop up for only being able to work once per day. 
+- Implemented Stress, Morale, and Stamina meters
+- Implemented loop for work and sleep stress and morale patterns. 
+- Added two more block finishing the initial layout for the Union District.
+- Updated minor UI adjustments
+
+## Systems Implemented
+
+### Time and Day Cycle
+Implemented a clock system that tracks the current time and day of the week.
+
+### Work System
+Players can interact with a terminal to complete a work shift and earn money.  
+Pay varies depending on the time the player arrives.
+
+### Stress and Morale
+Added a stress system that increases from sprinting and working.  
+High stress lowers morale while low stress allows morale to recover.
+
+### Stamina
+Implemented sprint stamina. When stamina reaches zero the player is forced to walk.
+
+---
+
+## Environment Progress
+
+Created the first playable city block including:
+
+- Player apartment
+- Row house residential area
+- Neighborhood park
+- Cinema
+- Diner
+- Train line
+- Bridge crossing
+- River system
+
+---
+
+## Screenshots
+
+![City Overview](../images/FullDistrict3.png)
+
+![Gameplay](../images/Gameplay1.png)
+
+![Apartment Interior](../images/GameplayPlayerApartmentInterior.png)
+
+---
+
+## Challenges
+
+- Balancing the stress and stamina systems so sprinting doesn't punish the player too harshly.
+- Learning how to structure UI widgets for the HUD.
+- Interweaving the money and stress systems. 
+
+---
+
+## Next Steps
+
+Next development goals:
+
+- Implement rent system
+- Expand the city environment
+- Implement more stress factors and relievers
+- Improve UI layout
