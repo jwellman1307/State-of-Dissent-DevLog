@@ -1,3 +1,40 @@
-## Jobs 
+## Job System
 
+As of March 9, 2026, there is currently one available job in the game. Additional jobs will be added as development continues.
 
+The job system allows the player to earn money while balancing time, stress, and daily responsibilities. As the game world expands, new jobs will become 
+available across multiple districts. This will give the player more opportunities to combine part-time jobs and maximize earnings.Different jobs will have 
+different working hours and locations, encouraging the player to travel across the city. This also increases the chances of encountering events or obstacles 
+that may impact the player's ability to reach work.
+
+Current Job
+Clothing Store (Implemented)
+
+The player can interact with the cash register inside the clothing store to open the Work Menu, which allows them to select a shift.
+Each shift advances the in-game clock, rewards the player with money, and increases the player's stress.
+
+| Work Type | Time Worked | Money Earned | Stress Gained |
+| --------- | ----------- | ------------ | ------------- |
+| Part-Time | 4 hours     | $40          | +5            |
+| Full Time | 8 hours     | $80          | +10           |
+| Overtime  | 12 hours    | $120         | +20           |
+
+Planned Jobs
+
+Additional jobs will be added as development progresses. These jobs will provide new work schedules and income opportunities.
+Planned roles include:
+  - Personal Trainer (Gym)
+  - Cashier (Corner Store)
+
+Future jobs will be located in the same and different districts throughout the city to encourage exploration and create more gameplay variety.
+
+Design Purpose
+
+The job system supports the core gameplay loop by forcing the player to make decisions about how they spend their time each day.
+Players must balance:
+  - Working to earn money
+  - Managing stress and morale
+  - Taking care of personal responsibilities
+  - Navigating a city that is gradually falling into dissent
+
+As the game world evolves, external events may begin to affect jobs, such as protests, blocked roads, or business closures.
