@@ -1,11 +1,12 @@
 # Core Gameplay Loop
 
-The gameplay loop revolves around the player managing their daily life.
+The gameplay loop revolves around the player mananging their daily life while the city is falling into dissent. 
 
 Basic loop:
 
-Wake up → Travel through city → Work → Manage stress -> take care of Grandpa -> manage bills → Sleep → Next day
+Wake up → Travel through city → Work → Manage stress -> take care of Grandpa -> Manage relationships -> manage morale → Sleep → Next day
 
-The player must balance earning money with maintaining their physical and mental wellbeing. The player will be forced to make difficult decisions like choosing to take care of grandapa, juggling bills, stress, morale. Player can choose to ignore protest and not be informed, but city will fall into dissent.
+The player must balance earning money with maintaining their physical and mental wellbeing. The player will be forced to make difficult decisions like choosing to take care of 
+grandapa, juggling bills, stress, morale. Player can choose to ignore protest and not be informed, but city will fall into dissent.
 
 ---
