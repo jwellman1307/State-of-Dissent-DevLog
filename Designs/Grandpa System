@@ -1,0 +1,140 @@
+# Grandpa System
+
+The Grandpa System is a core gameplay and narrative system that represents the player's responsibility to care for an elderly family member while managing their own survival.
+This system introduces emotional weight, long-term consequences, and difficult decision-making into the core gameplay loop.
+
+---
+
+##  Core Concept
+
+The player is responsible for maintaining Grandpa’s wellbeing through:
+
+- Medicine  
+- Food  
+- Interaction (presence and time spent)  
+
+Neglecting Grandpa will negatively impact both gameplay systems and narrative outcomes.
+
+---
+
+##  Grandpa Stats
+
+Grandpa is governed by two primary attributes:
+
+###  Health
+- Represents Grandpa’s overall physical condition  
+- Increased by:
+  - Medicine  
+  - Food  
+- Decreases over time if neglected  
+
+---
+
+###  Sickness
+- Represents illness severity  
+- Reduced by:
+  - Medicine  
+- Increases over time without treatment  
+
+---
+
+##  Care Mechanics
+
+### Medicine
+- Can be given once per day  
+- Effects:
+  - Decreases sickness  
+  - Increases health  
+- Requirements:
+  - Player must have medicine in inventory  
+
+### Feedback:
+- "You do not have any medicine"  
+- "Grandpa already took medicine today"  
+- Stat changes displayed (e.g. +Health, -Sickness)
+
+---
+
+###  Feeding (Planned)
+- Improves Grandpa’s health  
+- Requires food item  
+- May provide small morale boost to player  
+
+---
+
+###  Interaction (In Progress)
+
+The player will be able to interact with Grandpa through a contextual interaction menu:
+
+- Talk to Grandpa  
+- Sit with Grandpa  
+- Give Medicine  
+- Feed Grandpa  
+- Cancel  
+
+#### Effects:
+- Talking → reduces player stress, increases morale  
+- Sitting → reduces more stress, advances time  
+- Care actions → improve Grandpa’s condition  
+
+---
+
+##  Daily Limits
+
+- Medicine can only be given once per day  
+- Time spent with Grandpa consumes in-game time  
+- Player must balance care with other responsibilities  
+
+---
+
+##  System Interactions
+
+The Grandpa System directly affects:
+
+- Morale
+  - Improves when spending time with Grandpa  
+  - Decreases if Grandpa is neglected  
+
+- Economy
+  - Requires spending money on medicine and food  
+
+- Time System
+  - Caring for Grandpa consumes time  
+
+- Job System
+  - Working reduces time available for care  
+
+---
+
+##  Neglect Consequences
+
+Failing to care for Grandpa may result in:
+
+- Increased sickness  
+- Decreased health  
+- Reduced player morale  
+- Narrative consequences  
+- Potential failure or alternate endings  
+
+---
+
+##  Emotional Design Purpose
+
+The Grandpa System is designed to:
+
+- Create emotional attachment  
+- Introduce moral dilemmas  
+- Force trade-offs between survival and care  
+- Reinforce the theme of responsibility in a collapsing city  
+
+---
+
+##  Design Goal
+
+To make the player feel that:
+
+- Time is limited  
+- Resources are scarce  
+- Every decision has emotional and mechanical consequences  
+
+The player must constantly choose between caring for Grandpa and maintaining their own survival.
