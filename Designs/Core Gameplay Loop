@@ -1,12 +1,85 @@
 # Core Gameplay Loop
 
-The gameplay loop revolves around the player mananging their daily life while the city is falling into dissent. 
-
-Basic loop:
-
-Wake up → Travel through city → Work → Manage stress -> take care of Grandpa -> Manage relationships -> manage morale → Sleep → Next day
-
-The player must balance earning money with maintaining their physical and mental wellbeing. The player will be forced to make difficult decisions like choosing to take care of 
-grandapa, juggling bills, stress, morale. Player can choose to ignore protest and not be informed, but city will fall into dissent.
+The gameplay loop revolves around the player managing their daily life while the city gradually falls into dissent.
 
 ---
+
+## Daily Gameplay Loop
+
+Wake up → Review status → Plan the day → Travel through city → Work / Activities →  
+Manage stress & morale → Care for Grandpa → Interact with world →  
+Consequences update → Sleep → Next day
+
+---
+
+## Decision Pressure
+
+Each day, the player must balance multiple competing priorities:
+
+-  **Money** — Earn income to pay rent, buy food, and purchase medicine  
+-  **Mental Health** — Manage stress, morale, and stamina  
+-  **Grandpa’s Wellbeing** — Maintain health and reduce sickness  
+-  **City Awareness** — Stay informed about growing dissent  
+
+Neglecting one system will negatively impact others, forcing difficult trade-offs.
+
+---
+
+##  Consequence System
+
+Player actions directly affect the world and character states:
+
+- Grandpa’s condition (health, sickness, survival)
+- Player stats (stress, morale, stamina)
+- Financial stability (income vs expenses)
+- City state (dissent progression)
+
+Every decision carries short-term benefits and long-term consequences.
+
+---
+
+##  Discovery-Based World System
+
+The player is not automatically aware of events happening in the city.
+
+Instead, information is discovered through:
+- Exploration (encountering protests, roadblocks)
+- Watching TV or media
+- Environmental storytelling
+
+Discovered events are logged in a City Awareness Feed, allowing the player to track how the world is changing.
+
+---
+
+##  Escalation Over Time
+
+As days progress, the game becomes increasingly difficult:
+
+- Costs rise (rent, food, medicine)
+- Grandpa requires more care if neglected
+- City dissent increases:
+  - More graffiti and environmental decay
+  - Roadblocks and restricted areas
+  - Changes in NPC behavior
+  - Limited store availability
+
+---
+
+##  Emotional Gameplay Layer
+
+The player develops a relationship with Grandpa through:
+
+- Conversations
+- Time spent together
+- Care decisions (medicine, food, presence)
+
+Ignoring Grandpa may result in:
+- Lower morale
+- Narrative consequences
+- Different endings
+
+---
+
+##  Core Player Goal
+
+The player must survive, maintain stability, and navigate the collapsing city while deciding what—and who—is worth prioritizing.
