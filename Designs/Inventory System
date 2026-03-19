@@ -1,0 +1,172 @@
+# Inventory System
+
+The Inventory System allows the player to collect, store, and use important items needed for survival and daily responsibilities.
+It is designed to be simple, readable, and directly connected to core gameplay systems such as Grandpa care, shopping, and resource management.
+
+---
+
+##  Core Concept
+
+The player has a limited number of inventory slots that can hold usable items.
+Items are collected through interaction with the world and are displayed in the Player Gameplay UI.
+The inventory is intended to support quick decision-making rather than complex item management.
+
+---
+
+##  Inventory Structure
+
+- Fixed number of inventory slots  
+- Each slot can hold one item  
+- Items do not stack  
+- Empty slots remain visible in the UI  
+
+### Current Use:
+- Medicine
+- Alcohol
+- Future food items  
+
+---
+
+##  Item Collection
+
+Items are added to the inventory when the player interacts with a pickup object in the world.
+
+### Pickup Flow:
+Player interacts with item → item is identified → empty slot is found → item is added to inventory → UI updates
+
+### Rules:
+- If an empty slot is available, the item is added  
+- If no slot is available, the item cannot be collected  
+
+---
+
+##  Item Types
+
+The inventory is intended to store gameplay-relevant survival items.
+
+### Current Item Types:
+- Medicine
+  - Used to care for Grandpa
+  - Removed from inventory after use  
+
+### Planned Item Types:
+- Food
+  - Used for Grandpa care
+  - May support cooking or player recovery systems  
+
+---
+
+##  Item Usage
+
+Items can be consumed when used through an interaction.
+
+### Example:
+- Player selects or uses medicine during a Grandpa interaction  
+- System checks inventory for medicine  
+- If found:
+  - Grandpa receives medicine
+  - Inventory slot is cleared
+  - UI updates
+
+---
+
+##  Inventory Validation
+
+The system checks whether the required item exists before allowing certain actions.
+
+### Example Feedback:
+- "You do not have any medicine"
+
+### Purpose:
+- Prevent invalid actions  
+- Provide clear player feedback  
+- Connect inventory state to gameplay decisions  
+
+---
+
+##  UI Integration
+
+The inventory is displayed in the bottom-center section of the Player Gameplay UI.
+
+### UI Behavior:
+- Each slot is always visible  
+- Stored items appear in available slots  
+- Used items disappear when consumed  
+
+### Purpose:
+- Keeps resource information visible at all times  
+- Supports quick understanding of available items  
+
+---
+
+##  System Integration
+
+The Inventory System connects directly with:
+
+-  Grandpa System
+  - Medicine and food usage  
+
+-  Shop System
+  - Purchased items are added to inventory  
+
+-  Interaction System
+  - Items are collected and used through interaction  
+
+-  Player Gameplay UI
+  - Inventory contents are shown visually  
+
+---
+
+##  Design Limits
+
+The inventory is intentionally limited to encourage planning and prioritization.
+
+The player cannot carry unlimited resources, which reinforces survival pressure and decision-making.
+
+### Trade-Offs:
+- Carry medicine for Grandpa  
+- Save slots for food or future supplies  
+- Plan purchases carefully  
+
+---
+
+##  Future Expansion (Planned)
+
+### Additional Item Types
+- Groceries
+- Prepared food
+- Utility items
+- Quest items
+
+### Expanded Functionality
+- Item-specific icons
+- Item descriptions
+- Context-sensitive usage
+
+### Inventory Decisions
+- Choosing what to carry
+- Limited space affecting shopping and planning
+
+---
+
+##  Design Purpose
+
+The Inventory System is designed to:
+
+- Support resource management  
+- Connect items directly to gameplay systems  
+- Keep item handling simple and readable  
+- Reinforce planning through limited space  
+
+---
+
+##  Example Scenario
+
+The player buys medicine from a pharmacy.
+
+- Medicine is added to an empty inventory slot  
+- Later, the player interacts with Grandpa  
+- The player chooses "Give Medicine"  
+- The system checks inventory, consumes the medicine, and updates Grandpa’s stats  
+
+This creates a direct link between shopping, inventory management, and Grandpa care.
