@@ -1,1 +1,124 @@
+# Player Gameplay UI
+
+The Player Gameplay UI provides the player with real-time feedback on their status, resources, and available actions.
+
+The UI is designed to be minimal, readable, and always visible, ensuring the player can make informed decisions without interrupting gameplay.
+
+---
+
+##  Core UI Layout
+
+The UI is divided into key areas of the screen:
+
+- Top Left — Financial & Rent Information  
+- Top Right — Time & Day Tracking  
+- Bottom Left — Player Stats  
+- Bottom Center — Inventory Slots  
+
+---
+
+##  Financial & Objective UI (Top Left)
+
+Displays:
+
+- Rent Due  
+- Days Remaining for Rent  
+- Current Money  
+
+### Purpose:
+- Keeps financial pressure visible at all times  
+- Reinforces urgency and long-term goals  
+
+---
+
+##  Time System UI (Top Right)
+
+Displays:
+
+- Current Time  
+- Day of the Week  
+- Current Day Count  
+
+### Purpose:
+- Helps the player plan daily activities  
+- Reinforces time as a limited resource  
+
+---
+
+##  Player Stats UI (Bottom Left)
+
+Tracks core player attributes:
+
+- Stress
+- Morale
+- Stamina
+
+### Behavior:
+- Updates in real time based on player actions  
+- Uses color-coded bars for quick readability  
+
+### Purpose:
+- Provides immediate feedback on player condition  
+- Influences available actions and decisions  
+
+---
+
+##  Inventory UI (Bottom Center)
+
+- Displays available inventory slots  
+- Items appear when collected (e.g. medicine, food)  
+- Items are removed when used  
+
+### Purpose:
+- Enables resource management  
+- Connects directly to gameplay systems (Grandpa care, survival)
+
+---
+
+###  City Awareness Feed (Planned)
+
+- Displays discovered events in the city  
+- Updates based on exploration and player encounters  
+
+### Purpose:
+- Reinforces the discovery-based world system  
+- Keeps track of growing dissent  
+
+---
+
+###  End-of-Day Summary (Planned)
+
+Displays:
+
+- Money earned  
+- Stress changes  
+- Grandpa condition  
+- City updates  
+
+### Purpose:
+- Reinforces consequences of daily decisions  
+- Provides player reflection before the next day  
+
+---
+
+##  UI System Integration
+
+The UI directly reflects changes in all major gameplay systems:
+
+- Job System → Money, Stress  
+- Grandpa System → Health, Feedback Messages  
+- Time System → Clock & Day Progression  
+- Inventory System → Item availability  
+- City System → Future UI (news/events)  
+
+---
+
+##  Design Goal
+
+The UI is designed to:
+
+- Deliver critical information without overwhelming the player  
+- Support fast decision-making  
+- Reinforce tension between systems  
+- Maintain immersion while providing clarity  
 
