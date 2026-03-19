@@ -1,9 +1,161 @@
 # Gameplay Systems Design
 
 State of Dissent is built around interconnected gameplay systems that simulate the daily life of a citizen living in a struggling city.
-
-The player must balance **work, finances, physical energy, and mental wellbeing** while navigating a changing urban environment.
-
-These systems work together to create a **daily survival loop** that reflects the pressures of life inside the city.
+The player must balance work, finances, physical energy, and mental wellbeing while navigating a changing urban environment.
+These systems work together to create a daily survival loop driven by player choice and consequence.
 
 ---
+
+##  Player Systems
+
+### Stress System
+- Increases from work, lack of rest, and poor decisions
+- Decreases through activities (resting, working out, relaxing)
+- High stress reduces efficiency and decision-making
+
+### Morale System
+- Represents emotional wellbeing
+- Affected by:
+  - Grandpa interactions
+  - Life stability
+  - Environment
+- Low morale can prevent certain actions (e.g. refusing to work out, working at jobs, dialogue choices)
+
+### Stamina System
+- Governs how much the player can do in a day
+- Drains through activities
+- Rest restores stamina
+- Depleting stamina raises stress
+
+---
+
+##  Grandpa System
+
+- Tracks:
+  - Health
+  - Sickness
+- Requires:
+  - Medicine
+  - Food
+  - Interaction (talking, sitting)
+
+### Mechanics:
+- Medicine reduces sickness and increases health
+- Feeding improves health
+- Neglect worsens condition over time
+
+### Outcomes:
+- Grandpa’s condition impacts:
+  - Player morale
+  - Narrative direction
+  - Possible endings
+
+---
+
+##  Economy System
+
+- Player earns money through work
+- Money is used for:
+  - Rent
+  - Food
+  - Medicine
+
+### Pressure:
+- Limited income vs increasing costs
+- Forces prioritization decisions
+
+---
+
+## 🧳 Inventory System
+
+- Limited slots
+- Items include:
+  - Medicine
+  - Food
+  - Groceries to cook at home
+- Items are consumed on use
+
+---
+
+##  Activity / Interaction Systems
+
+### Work System
+- Player selects work duration:
+  - Short shift
+  - Full shift
+  - Overtime
+- Trade-off:
+  - More money vs more stress
+- Jobs will have different work schedules allow the player to mix and match jobs for max income
+
+### Gym / Stress Relief System
+- Light workout:
+  - -Stress, +Time
+- Heavy workout:
+  - More stress reduction, more time cost
+- Locked if morale is too low
+
+### Shopping System (Planned)
+- Buy:
+  - Medicine
+  - Food
+  - Groceries
+- Based on available money
+
+---
+
+##  City System
+
+### Dissent System
+- Represents city instability
+- Increases over time and through events
+
+### Effects:
+- Visual changes (graffiti, decay, trash)
+- Environmental changes (roadblocks, protesting crowds, checkpoints)
+- NPC behavior changes
+
+---
+
+##  Discovery System
+
+- Player learns about the city through:
+  - Exploration
+  - News (TV)
+  - Encounters
+
+### Features:
+- Events are logged in a City Awareness Feed
+- Player knowledge is limited to what they discover
+
+---
+
+##  Time System
+
+- Time progresses through:
+  - Actions
+  - Work
+  - Activities
+- Day resets after sleep
+
+---
+
+##  System Interconnectivity
+
+All systems influence each other:
+
+- Working → increases money but raises stress  
+- Ignoring Grandpa → lowers morale and affects outcomes  
+- High stress → limits player actions  
+- Low money → restricts survival options  
+- Rising dissent → changes world behavior  
+
+---
+
+##  Design Goal
+
+To create a system-driven experience where:
+
+- Every decision has trade-offs  
+- Systems are constantly in tension  
+- The player must choose what to prioritize  
