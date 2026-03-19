@@ -1,0 +1,131 @@
+# Time System
+
+The Time System governs the flow of the game world, controlling how player actions consume time and how each day progresses.
+Time is a limited resource and serves as a core source of pressure, forcing the player to make decisions about how to spend each day.
+
+---
+
+##  Core Concept
+
+Time continuously advances as the player performs actions.
+
+Every major activity consumes time, limiting how much the player can accomplish in a single day.
+
+The player must balance time between:
+
+- Working to earn money  
+- Caring for Grandpa  
+- Managing personal wellbeing  
+- Exploring the city  
+
+---
+
+##  Time Structure
+
+The game operates on a daily cycle:
+
+- Each day has a set start time  
+- Time progresses in hours and minutes  
+- The day ends when the player chooses to sleep  
+
+### Example:
+- Morning → Work / Planning  
+- Afternoon → Activities / Travel  
+- Evening → Care / Recovery  
+
+---
+
+##  Time Advancement
+
+Time advances through both player actions and real-time progression.
+
+### Actions that advance time:
+
+-  Working (4 / 8 / 12 hours)
+-  Sitting with Grandpa  
+-  Working out  
+-  Shopping
+-  Cooking (planned)
+
+Each action advances time by a defined amount.
+
+---
+
+##  Day Transition
+
+The player ends the day by sleeping.
+
+### On Sleep:
+- Time resets to the next day  
+- Daily limits are reset (e.g. medicine usage)  
+- Systems update:
+  - Grandpa condition  
+  - Player stats  
+  - City state  
+
+---
+
+##  Time as a Resource
+
+Time acts as a constraint that limits player behavior.
+
+Spending time in one area reduces the ability to act in others.
+
+### Example Trade-Offs:
+
+- Working longer → less time for Grandpa  
+- Caring for Grandpa → less time to earn money  
+- Exploring → risk of running out of time for responsibilities  
+
+---
+
+##  System Interactions
+
+The Time System directly affects all major gameplay systems:
+
+-  Job System → consumes large amounts of time  
+-  Grandpa System → requires time investment  
+-  Player Stats → activities affect stress, morale, stamina  
+-  Shop System → requires travel and time  
+-  City System → events may occur at specific times  
+
+---
+
+##  Future Expansion (Planned)
+
+### Timed Events
+- Certain events occur only at specific times:
+  - Protests  
+  - Store hours  
+  - NPC schedules  
+
+### Time-Based Restrictions
+- Some locations or activities may be unavailable depending on time of day  
+
+### Consequences of Poor Time Management
+- Missing work shifts  
+- Inability to care for Grandpa  
+- Increased stress from poor planning  
+
+---
+
+##  Design Purpose
+
+The Time System is designed to:
+
+- Create constant pressure  
+- Force prioritization and planning  
+- Limit player actions in a meaningful way  
+- Reinforce the daily survival loop  
+
+---
+
+##  Example Scenario
+
+The player chooses to:
+
+- Work an 8-hour shift → time advances significantly  
+- Return home late → limited time to care for Grandpa  
+- Skip rest → increased stress the next day  
+
+This creates a chain of consequences driven entirely by time management.
