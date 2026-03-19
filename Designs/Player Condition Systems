@@ -1,0 +1,169 @@
+# Player Condition System
+
+The Player Condition System tracks the player’s physical and mental state through a set of core attributes.
+These attributes influence the player’s ability to perform actions, make decisions, and maintain stability throughout each day.
+This system introduces internal pressure, forcing the player to manage their wellbeing alongside external responsibilities.
+
+---
+
+##  Core Attributes
+
+The player is governed by three primary condition stats:
+
+- Stress
+- Morale
+- Stamina
+
+Each attribute changes dynamically based on player actions and world conditions.
+
+---
+
+##  Stress
+
+### Description:
+Represents mental and emotional strain.
+
+### Increases from:
+- Working (especially long shifts)  
+- Poor time management  
+- Neglecting responsibilities  
+
+### Decreases from:
+- Resting  
+- Sitting with Grandpa  
+- Certain activities (e.g. gym)
+
+### Effects:
+- High stress reduces efficiency  
+- May limit available actions  
+- Can negatively impact morale  
+
+---
+
+##  Morale
+
+### Description:
+Represents emotional wellbeing and motivation.
+
+### Increases from:
+- Positive interactions (e.g. spending time with Grandpa)  
+- Stability (meeting needs, low stress)  
+
+### Decreases from:
+- Neglecting Grandpa  
+- High stress  
+- Harsh city conditions  
+
+### Effects:
+- Low morale may prevent certain actions:
+  - Refusing to work out  
+  - Reduced willingness to engage  
+- Influences overall player performance  
+
+---
+
+##  Stamina
+
+### Description:
+Represents physical energy available for daily activities.
+
+### Decreases from:
+- Working  
+- Physical activities  
+- Time spent performing actions  
+
+### Increases from:
+- Resting  
+- Sleeping  
+
+### Effects:
+- Low stamina limits how much the player can do in a day  
+- Forces the player to pace activities  
+
+---
+
+##  System Interactions
+
+The Player Condition System interacts with all major gameplay systems:
+
+-  Job System
+  - Increases stress  
+  - Reduces stamina  
+
+-  Grandpa System
+  - Improves morale through interaction  
+  - Neglect reduces morale  
+
+-  Time System
+  - Activities consume stamina over time  
+
+-  Activity Systems
+  - Can reduce stress but consume time and stamina  
+
+-  Dissent System
+  - Harsh environments may lower morale  
+
+---
+
+##  Balance & Trade-Offs
+
+The player must constantly balance their condition stats:
+
+- Working more → more money but higher stress  
+- Resting → reduces stress but uses valuable time  
+- Caring for Grandpa → improves morale but limits productivity  
+
+No action improves all stats at once, forcing meaningful decisions.
+
+---
+
+##  Negative States
+
+### High Stress
+- Reduced efficiency  
+- Potential action limitations  
+
+### Low Morale
+- Restricted actions  
+- Reduced engagement with systems  
+
+### Low Stamina
+- Limited activity capacity  
+- Forces early rest or reduced productivity  
+
+---
+
+##  Future Expansion (Planned)
+
+### Status Effects
+- Burnout (extreme stress)  
+- Depression (low morale over time)  
+- Exhaustion (low stamina)
+
+### Conditional Gameplay Changes
+- Altered dialogue options  
+- Reduced performance in jobs  
+- Increased failure risk  
+
+---
+
+##  Design Purpose
+
+The Player Condition System is designed to:
+
+- Create internal pressure on the player  
+- Reinforce the need for balance and planning  
+- Connect emotional and physical states to gameplay  
+- Prevent optimal play by introducing trade-offs  
+
+---
+
+##  Example Scenario
+
+The player chooses to:
+
+- Work overtime → stress increases, stamina decreases  
+- Skip rest → starts the next day exhausted  
+- Ignore Grandpa → morale drops  
+
+This creates a compounding effect where poor decisions lead to increasingly difficult gameplay conditions.
