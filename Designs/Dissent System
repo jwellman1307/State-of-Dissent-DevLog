@@ -1,0 +1,157 @@
+# Dissent System
+
+The Dissent System represents the gradual instability of the city and acts as a dynamic world-state system that evolves over time.
+It controls how the environment, NPC behavior, and available opportunities change as conditions in the city worsen.
+
+---
+
+##  Core Concept
+
+Dissent is a global value that increases as time passes and as certain conditions are met.
+As dissent rises, the city becomes more unstable, dangerous, and restrictive.
+The player is not directly told the level of dissent—instead, they experience it through environmental and gameplay changes.
+
+---
+
+##  Dissent Value
+
+- A hidden numerical value representing city instability  
+- Increases over time and through indirect factors  
+- Can accelerate based on player inaction or world conditions  
+
+---
+
+##  Dissent Progression
+
+Dissent progresses gradually across multiple thresholds.
+
+Each threshold introduces new changes to the world.
+
+### Example Stages:
+
+#### Low Dissent
+- City appears mostly normal  
+- Minimal environmental changes  
+
+#### Medium Dissent
+- Increased graffiti and posters  
+- NPC behavior becomes more tense  
+- Early signs of unrest  
+
+#### High Dissent
+- Roadblocks and restricted areas  
+- Protests and gatherings  
+- Limited access to stores or jobs  
+
+#### Critical Dissent
+- Severe restrictions on movement  
+- Businesses may close  
+- High-risk environment  
+
+---
+
+##  World Effects
+
+As dissent increases, the following systems are affected:
+
+### Environment
+- Graffiti appears dynamically  
+- Posters change or disappear  
+- Visual decay increases  
+
+### Navigation
+- Roadblocks limit movement  
+- Certain areas become inaccessible  
+
+### NPC Behavior (Planned)
+- Increased tension or aggression  
+- Changes in daily routines  
+
+### Economy (Planned)
+- Store closures  
+- Reduced job availability  
+- Increased prices  
+
+---
+
+##  Discovery-Based Awareness
+
+The player does not automatically know the state of the city.
+
+Instead, dissent is discovered through:
+
+- Exploration (encountering changes directly)  
+- Watching TV or media  
+- Environmental storytelling  
+
+Discovered information is logged in a **City Awareness Feed**.
+
+---
+
+##  System Interactions
+
+The Dissent System interacts with all major gameplay systems:
+
+-  Time System
+  - Dissent increases as days progress  
+
+-  Job System
+  - Jobs may become unavailable or harder to access  
+
+-  Shop System
+  - Stores may close or have limited inventory  
+
+-  Exploration
+  - Travel becomes more difficult and risky  
+
+-  Player Morale
+  - Harsh environments may negatively affect morale  
+
+---
+
+##  Indirect Player Impact
+
+The player does not directly control dissent, but their choices influence how they experience it.
+
+### Examples:
+- Ignoring the city → less awareness, more surprise obstacles  
+- Exploring → better understanding of risks  
+- Poor planning → higher chance of disruption  
+
+---
+
+##  Future Expansion (Planned)
+
+### Dynamic Events
+- Protests blocking roads  
+- Police presence  
+- Sudden closures or lockdowns  
+
+### District-Based Dissent
+- Different areas of the city may experience varying levels of unrest  
+
+### Reactive World Systems
+- Environment changes in real time based on dissent thresholds  
+
+---
+
+##  Design Purpose
+
+The Dissent System is designed to:
+
+- Create a living, evolving world  
+- Apply external pressure to the player  
+- Reinforce the theme of societal instability  
+- Force adaptation and planning  
+
+---
+
+##  Example Scenario
+
+The player attempts to go to work:
+
+- A roadblock appears due to rising dissent  
+- The player must reroute or miss their shift  
+- Missing work results in lost income and increased pressure  
+
+This creates emergent gameplay driven by world conditions rather than scripted events.
