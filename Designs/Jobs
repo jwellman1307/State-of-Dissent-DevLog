@@ -1,40 +1,118 @@
-## Job System
+##  Job System
 
-As of March 9, 2026, there is currently one available job in the game. Additional jobs will be added as development continues.
+As of March 18, 2026, there is currently one available job in the game. Additional jobs will be added as development continues.
+The Job System allows the player to earn money while balancing time, stress, and daily responsibilities.
+Jobs are a primary source of income but come with trade-offs that directly impact the player’s physical and mental state.
 
-The job system allows the player to earn money while balancing time, stress, and daily responsibilities. As the game world expands, new jobs will become 
-available across multiple districts. This will give the player more opportunities to combine part-time jobs and maximize earnings.Different jobs will have 
-different working hours and locations, encouraging the player to travel across the city. This also increases the chances of encountering events or obstacles 
-that may impact the player's ability to reach work.
+---
 
-Current Job
-Clothing Store (Implemented)
+##  Core Job Loop
 
-The player can interact with the cash register inside the clothing store to open the Work Menu, which allows them to select a shift.
-Each shift advances the in-game clock, rewards the player with money, and increases the player's stress.
+Travel to job → Interact with work terminal → Select shift →  
+Time advances → Earn money → Gain stress → Return to world
+
+---
+
+##  Time & Trade-Off Design
+
+Each job forces the player to make decisions between:
+
+-  **Income** — More hours = more money  
+-  **Stress** — Longer shifts increase stress  
+-  **Time** — Working reduces time available for other activities  
+
+This creates a constant tension between survival and wellbeing.
+
+---
+
+##  Current Job
+
+### Clothing Store (Implemented)
+
+The player can interact with the cash register to open the Work Menu and select a shift.
+
+Each shift:
+- Advances in-game time  
+- Rewards the player with money  
+- Increases stress  
 
 | Work Type | Time Worked | Money Earned | Stress Gained |
-| --------- | ----------- | ------------ | ------------- |
-| Part-Time | 4 hours     | $40          | +5            |
-| Full Time | 8 hours     | $80          | +10           |
-| Overtime  | 12 hours    | $120         | +20           |
+|----------|------------|-------------|--------------|
+| Part-Time | 4 hours | $40 | +5 |
+| Full Time | 8 hours | $80 | +10 |
+| Overtime | 12 hours | $120 | +20 |
 
-Planned Jobs
+---
 
-Additional jobs will be added as development progresses. These jobs will provide new work schedules and income opportunities.
-Planned roles include:
-  - Personal Trainer (Gym)
-  - Cashier (Corner Store)
+##  World Integration
 
-Future jobs will be located in the same and different districts throughout the city to encourage exploration and create more gameplay variety.
+Jobs are tied to physical locations in the city.
 
-Design Purpose
+This creates:
+- Travel requirements  
+- Risk of encountering events (roadblocks, protests)  
+- Potential delays or missed work opportunities  
 
-The job system supports the core gameplay loop by forcing the player to make decisions about how they spend their time each day.
-Players must balance:
-  - Working to earn money
-  - Managing stress and morale
-  - Taking care of personal responsibilities
-  - Navigating a city that is gradually falling into dissent
+---
 
-As the game world evolves, external events may begin to affect jobs, such as protests, blocked roads, or business closures.
+##  Dynamic Job Conditions (Future System)
+
+As the city falls into dissent, jobs may be affected by:
+
+- Business closures  
+- Reduced hours  
+- Increased demand for work  
+- Dangerous travel conditions  
+
+This ensures the job system evolves with the world.
+
+---
+
+##  Planned Jobs
+
+Additional jobs will introduce new gameplay variations:
+
+- Personal Trainer (Gym)
+  - Reduces stress while earning money  
+  - Requires sufficient stamina/morale  
+
+- Cashier (Corner Store)
+  - Stable income  
+  - Lower stress, lower pay  
+
+- Factory 
+  - Higher income but in another district
+  - Higher stress gain 
+
+- TV news studio
+  - Stable income
+  - Medium stress, and lower pay
+
+Future jobs will be distributed across districts to encourage exploration and strategic planning.
+
+---
+
+##  System Interactions
+
+The Job System directly affects:
+
+- Stress → increases with longer shifts  
+- Morale → may decrease if overworked  
+- Grandpa → less time available for care  
+- Time → limits daily actions  
+- Economy → enables survival through income  
+
+---
+
+##  Design Purpose
+
+The Job System reinforces the core gameplay loop by forcing the player to constantly make trade-offs.
+
+Players must decide how to allocate their time between:
+
+- Earning money  
+- Maintaining their wellbeing  
+- Caring for Grandpa  
+- Navigating a city in decline  
+
+No choice is optimal—every decision has consequences.
