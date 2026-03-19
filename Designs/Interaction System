@@ -1,0 +1,190 @@
+# Interaction System
+
+The Interaction System allows the player to engage with objects, NPCs, and world elements through a consistent and reusable framework.
+This system connects player input, UI feedback, and gameplay actions, enabling interaction with core systems such as jobs, Grandpa care, shops, and activities.
+
+---
+
+##  Core Concept
+
+The player interacts with the world through context-sensitive prompts.
+When the player looks at or approaches an interactable object or NPC, the system detects it and provides visual feedback.
+The player can then trigger an interaction which executes a specific action or opens a contextual menu.
+
+---
+
+##  Interaction Flow
+
+Look at object/NPC → Interaction detected → UI prompt appears → Player inputs interact →  
+Action executes OR interaction menu opens
+
+---
+
+##  Detection System
+
+Interaction is based on player targeting:
+
+- Line trace or proximity detection  
+- Detects interactable actors in front of the player  
+- Only one interactable is active at a time  
+
+### Requirements:
+- Actor must be marked as interactable  
+- Actor contains interaction logic  
+
+---
+
+##  Interaction UI
+
+### Visual Feedback:
+- Hand icon appears when an object can be interacted with  
+
+### Purpose:
+- Indicates that an action is available  
+- Keeps the UI minimal and non-intrusive  
+
+---
+
+##  Interaction Types
+
+### 1. Instant Interaction
+
+Executes immediately upon input.
+
+#### Examples:
+- Picking up items  
+- Using medicine  
+- Triggering simple actions  
+
+---
+
+### 2. Menu-Based Interaction
+
+Opens a contextual interaction menu with multiple options.
+
+#### Examples:
+- Grandpa interaction menu:
+  - Talk  
+  - Sit  
+  - Give Medicine  
+  - Feed  
+  - Cancel  
+
+- Work terminal:
+  - Select shift  
+
+---
+
+##  Interaction Menu System
+
+When interacting with complex objects or NPCs, a menu is displayed.
+
+### Behavior:
+- Player movement is disabled  
+- Mouse cursor is shown  
+- Player selects an option  
+
+### Each option:
+- Triggers a specific function  
+- May consume time  
+- May affect player or world systems  
+
+---
+
+##  System Integration
+
+The Interaction System connects to all major systems:
+
+-  Grandpa System
+  - Care actions (medicine, feeding, talking)
+
+-  Job System
+  - Work terminal interaction  
+
+-  Shop System
+  - Purchasing items  
+
+-  Inventory System
+  - Item usage  
+
+-  Player Stats
+  - Actions affect stress, morale, stamina  
+
+---
+
+##  Time Integration
+
+Most interactions consume time.
+
+### Examples:
+- Sitting with Grandpa → advances time  
+- Working → large time increase  
+- Activities → moderate time increase  
+
+This reinforces time as a limited resource.
+
+---
+
+##  Feedback System
+
+The system provides immediate feedback for player actions.
+
+### Examples:
+- "You do not have any medicine"  
+- "Grandpa already took medicine today"  
+- Stat changes (e.g. +Health, -Sickness)
+
+### Purpose:
+- Inform the player of outcomes  
+- Prevent confusion  
+- Reinforce system behavior  
+
+---
+
+##  Reusability
+
+The Interaction System is designed to be modular and reusable.
+
+New interactable objects can be added by:
+
+- Marking them as interactable  
+- Assigning interaction behavior  
+- Connecting them to existing systems  
+
+---
+
+##  Future Expansion (Planned)
+
+### Advanced Menus
+- Dialogue systems  
+- Branching choices  
+
+### Context Awareness
+- Different options based on player state:
+  - Inventory  
+  - Time of day  
+  - Grandpa condition  
+
+---
+
+##  Design Purpose
+
+The Interaction System is designed to:
+
+- Provide a consistent way to interact with the world  
+- Connect all gameplay systems together  
+- Support both simple and complex actions  
+- Maintain immersion while enabling player control  
+
+---
+
+##  Example Scenario
+
+The player approaches Grandpa:
+
+- Hand icon appears  
+- Player interacts → menu opens  
+- Player selects "Give Medicine"  
+- System checks inventory → applies effects → updates UI  
+
+This creates a seamless connection between player input and game systems.
