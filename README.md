@@ -95,13 +95,13 @@ The map layout is designed to create **distinct locations that can later host ev
 ![City Overview](images/DistrictWk4.png)
 
 ### Union District
-![Residential District](images/FullDistrict3.png)
+![Residential District](images/ShoppingPlaza1.png)
 
 ### Gameplay Systems
-![Gameplay](images/Gameplay1.png)
+![Gameplay](images/Poster.png)
 
 ### Stress and Morale System
-![Stress System](images/GameplayStress.png)
+![Stress System](images/ShoppingCenter.png)
 
 ### Player Apartment
 ![Apartment](images/Grandpa.png)
