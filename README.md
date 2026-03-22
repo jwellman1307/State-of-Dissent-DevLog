@@ -1,6 +1,6 @@
 # State of Dissent – Development Log
 
-![City Overview](images/FullDistrict.png)
+![City Overview](images/DistrictWk4.png)
 
 State of Dissent is a solo-developed political life simulation game built in Unreal Engine 5.
 
@@ -92,7 +92,7 @@ The map layout is designed to create **distinct locations that can later host ev
 # Screenshots
 
 ### City Overview
-![City Overview](images/FullDistrict1.png)
+![City Overview](images/DistrictWk4.png)
 
 ### Union District
 ![Residential District](images/FullDistrict3.png)
@@ -104,7 +104,7 @@ The map layout is designed to create **distinct locations that can later host ev
 ![Stress System](images/GameplayStress.png)
 
 ### Player Apartment
-![Apartment](images/GameplayPlayerApartmentInterior.png)
+![Apartment](images/Grandpa.png)
 
 ### Stress and Morale meter after day slept
 ![Window View](images/GameplayDaySlept.png)
