@@ -1,73 +1,138 @@
-# Devlog – March 8, 2026
+# Devlog – March 22, 2026
 
 ## Overview
-This devlog summarizes the first two weeks of development on State of Dissent.
+This devlog summarizes the first four weeks of development on State of Dissent a narrative-driven simulation game focused on survival, societal pressure, and personal 
+relationships inside a divided city.
 
 ---
 
 ## Week One
-- Implemented player camera and walking controls. 
-- Implemented player sprint.
-- Implemented player interaction with couch and work terminal. 
-- Laid assets for the first two blocks: residential and commercial plaza block.
-- Created the railroad blockout to outline the limits of the town.
-- Implemented the day and time cycle.
-- Implemented loop for interacting with couch and sleeping
+- Implemented player camera and walking controls  
+- Implemented player sprint  
+- Implemented player interaction with couch and work terminal  
+- Laid assets for the first two blocks: residential and commercial plaza block  
+- Created the railroad blockout to outline the limits of the town  
+- Implemented the day and time cycle  
+- Implemented loop for interacting with couch and sleeping  
 
 ## Week Two
-- Implemented the Money system.
-- Implemented loop for working, earning, money. 
-- Added text pop up for showing up to work too early. 
-- Added text pop up for only being able to work once per day. 
-- Implemented Stress, Morale, and Stamina meters
-- Implemented loop for work and sleep stress and morale patterns. 
-- Added two more block finishing the initial layout for the Union District.
-- Updated minor UI adjustments
+- Implemented the Money system  
+- Implemented loop for working and earning money  
+- Added text pop ups for:
+  - Arriving to work too early  
+  - Limiting work to once per day  
+- Implemented Stress, Morale, and Stamina meters  
+- Built gameplay loop connecting work, sleep, and player condition  
+- Expanded world with two additional blocks completing the Union District layout  
+- Performed minor UI adjustments  
 
-## Systems Implemented
+## Week Three
+- Implemented the Bills system  
+- Implemented the World Dissent system  
+- Created a News System tied to player discovery  
+- Improved lighting for day/night cycle and reflections  
+- Created reactive systems for:
+  - Graffiti and posters based on dissent levels  
+  - World props appearing/disappearing dynamically  
+- Implemented automatic door closing at end of day  
+- Added environmental storytelling elements tied to dissent  
 
-### Time and Day Cycle
-Implemented a clock system that tracks the current time and day of the week.
-
-### Work System
-Players can interact with a terminal to complete a work shift and earn money.  
-Pay varies depending on the time the player arrives.
-
-### Stress and Morale
-Added a stress system that increases from sprinting and working.  
-High stress lowers morale while low stress allows morale to recover.
-
-### Stamina
-Implemented sprint stamina. When stamina reaches zero the player is forced to walk.
-
----
-
-## Environment Progress
-
-Created the first playable city block including:
-
-- Player apartment
-- Row house residential area
-- Neighborhood park
-- Cinema
-- Diner
-- Train line
-- Bridge crossing
-- River system
-
-## Challenges
-
-- Balancing the stress and stamina systems so sprinting doesn't punish the player too harshly.
-- Learning how to structure UI widgets for the HUD.
-- Interweaving the money and stress systems. 
+## Week Four
+- Expanded the shopping plaza with additional assets  
+- Created Grandpa character (bedridden state)  
+- Implemented interactive medicine system:
+  - Pill bottle pickup  
+  - Inventory integration  
+  - Applying medicine to Grandpa to restore health  
+- Fixed lighting shadow warnings  
+- Resolved graffiti visibility issues at game start  
+- Fixed bug where day advanced twice when sleeping  
 
 ---
 
-## Next Steps
+## Current Core Gameplay Loop
+At the end of Week Four, the game supports a functional core loop:
 
-Next development goals:
+1. Wake up → Manage personal needs  
+2. Go to work → Earn money  
+3. Return home → Care for Grandpa  
+4. Manage bills and resources  
+5. Observe world changes through dissent system  
+6. Repeat with increasing pressure  
 
-- Implement rent system
-- Expand the city environment
-- Implement more stress factors and relievers
-- Improve UI layout
+---
+
+## Key Systems Implemented
+- Player Movement & Interaction  
+- Time & Day Cycle  
+- Work & Economy System  
+- Stress / Morale / Stamina System  
+- Bills & Financial Pressure  
+- World Dissent System  
+- Dynamic Environment (reactive props & graffiti)  
+- Inventory & Item Usage  
+- Basic NPC Interaction (Grandpa)  
+- Discovery-Based News System  
+
+---
+
+## Technical Challenges & Fixes
+- Resolved duplicate day progression caused by overlapping sleep triggers  
+- Fixed lighting/shadow errors impacting performance and visuals  
+- Debugged inventory item classification (medicine recognition issue)  
+- Corrected initialization bugs for reactive world actors  
+
+---
+
+## What Went Well
+- Rapid prototyping of interconnected systems  
+- Strong foundation for simulation loops  
+- Successful implementation of reactive world elements  
+- Consistent daily development progress  
+
+---
+
+## What Needs Improvement
+- Systems are functional but still early-stage and unpolished  
+- UI/UX needs refinement for clarity and immersion  
+- NPC behavior is currently limited (static interactions)  
+- Performance optimization will be required as systems scale  
+
+---
+
+## Next Steps (Week Five Focus)
+- Expand Grandpa interaction system:
+  - Dialogue options  
+  - Emotional/morale impact  
+  - Time-based interactions  
+- Implement basic shop system:
+  - Purchase medicine and food  
+  - Connect spending to survival decisions  
+- Introduce cooking/food mechanics  
+- Begin NPC movement and basic AI behavior  
+- Improve UI for interaction menus and feedback  
+
+---
+
+## Long-Term Vision
+State of Dissent is being developed as a system-driven narrative experience where:
+
+- Player choices affect both personal survival and world state  
+- Dissent dynamically reshapes the environment  
+- Relationships (starting with Grandpa) act as emotional anchors  
+- Multiple endings emerge based on player decisions  
+
+---
+
+## Closing Thoughts
+Development over the first four weeks has focused on building a broad foundation of systems rather than polishing individual features.
+
+The goal moving forward is to:
+- Deepen existing mechanics  
+- Improve player feedback and immersion  
+- Begin shaping meaningful narrative experiences  
+
+---
+
+## Repository & Updates
+This project is under active development. Updates will continue monthly as systems evolve and new features are introduced.
