@@ -68,22 +68,40 @@ Players can return to their apartment and sleep to advance to the next day.
 
 Sleeping resets daily systems and allows the player to recover from stress.
 
+### Rent and Financial Pressure System
+Player has rent due every 7 days. Not paying rent on time increase the amount the player owes on the next due date and player suffers negative effects.
+
+### Food and Inventory System
+Player can buy and eat food. Player and Grandpa must both eat everyday or will suffer negative effects. 
+
+Simple five slot inventory system.
+
+### TV news broadcast
+Simple tv news broadcase playing different news events based on the dissent state.
+
+### Taking Care of Grandpa
+Player lives with Grandpa and has to take care of him. Player can talk, give medicine, give food, or sit with him. 
+
+
 ---
 
 # World Prototype
 
-The current prototype city includes several districts and landmarks designed to support exploration and gameplay systems.
+The current prototype city includes one district and landmarks designed to support exploration and gameplay systems.
 
 Environment areas currently implemented:
 
-- Residential neighborhood with row houses
+- Residential neighborhoods with row houses
 - Player apartment interior
 - Neighborhood park and playground
-- Cinema district
-- Diner and commercial plaza
+- Movie Theatre
+- Diner
+- Commercial plaza
 - Train line and rail corridor
 - River and bridge crossing
 - Government building across the river
+- Corner Store
+- Gym
 
 The map layout is designed to create **distinct locations that can later host events, NPC activity, and story systems**.
 
@@ -132,15 +150,11 @@ This approach allows rapid iteration while maintaining visual clarity.
 Future development will expand the simulation systems of the game.
 
 Planned mechanics include:
-
-- Rent and financial pressure systems
-- Grocery and resource management
 - NPC pedestrian behaviors
 - City event system
-- TV news broadcasts and world updates
+- and world updates
 - City decay and unrest indicators
 - Protest and civil tension mechanics
-- Taking care of elderly grandfather
 - Neighbor events
 - Romantic interests
 - Multiple Endings
