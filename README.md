@@ -116,7 +116,7 @@ The map layout is designed to create **distinct locations that can later host ev
 ![Theatre](Images/DevLog02/MovieTheather.png)
 
 ### Gameplay Systems
-![Gameplay](Images/DevLog01Poster.png)
+![Gameplay](Images/DevLog01/Poster.png)
 
 ### Event Log
 ![Event Log](Images/DevLog02/EventLog.png)
