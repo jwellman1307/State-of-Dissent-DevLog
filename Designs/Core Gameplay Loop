@@ -1,85 +1,90 @@
 # Core Gameplay Loop
 
-The gameplay loop revolves around the player managing their daily life while the city gradually falls into dissent.
+The core gameplay loop of *State of Dissent* centers on surviving day-to-day life in a city that is steadily collapsing under economic pressure,unrest, and social decay. The player must manage their own wellbeing, maintain financial stability, care for Grandpa, and respond to a world that grows more unstable over time.
 
 ---
 
 ## Daily Gameplay Loop
 
-Wake up → Review status → Plan the day → Travel through city → Work / Activities →  
-Manage stress & morale → Care for Grandpa → Interact with world →  
-Consequences update → Sleep → Next day
+Each day follows a repeating survival-driven cycle:
+
+Wake up → Review player status → Check immediate needs → Plan the day → Travel through the city → Work or complete personal tasks → Buy supplies if needed → Care for Grandpa → Return home → Manage stress, morale, and stamina → Sleep → Advance to the next day
+
+This loop is designed to make even ordinary daily decisions feel meaningful. The player is not simply completing tasks, but constantly deciding what can and cannot be afforded with limited time, money, and energy.
 
 ---
 
-## Decision Pressure
+## Core Decision Pressure
 
-Each day, the player must balance multiple competing priorities:
+Every day, the player must balance several competing priorities:
 
--  **Money** — Earn income to pay rent, buy food, and purchase medicine  
--  **Mental Health** — Manage stress, morale, and stamina  
--  **Grandpa’s Wellbeing** — Maintain health and reduce sickness  
--  **City Awareness** — Stay informed about growing dissent  
+- **Income** — Work to afford rent, food, medicine, and basic survival
+- **Personal Condition** — Manage stress, morale, stamina, and hunger
+- **Grandpa’s Care** — Provide food, medicine, and attention to maintain his condition
+- **Time** — Use limited hours wisely before the day ends
+- **City Awareness** — Learn about unrest, blocked areas, shortages, and growing instability
 
-Neglecting one system will negatively impact others, forcing difficult trade-offs.
-
----
-
-##  Consequence System
-
-Player actions directly affect the world and character states:
-
-- Grandpa’s condition (health, sickness, survival)
-- Player stats (stress, morale, stamina)
-- Financial stability (income vs expenses)
-- City state (dissent progression)
-
-Every decision carries short-term benefits and long-term consequences.
+Neglecting one area creates pressure in others. Skipping work may protect stress but hurt finances. Ignoring Grandpa may preserve time but lead to emotional and narrative consequences. Failing to care for yourself reduces your ability to function efficiently.
 
 ---
 
-##  Discovery-Based World System
+## Consequence System
 
-The player is not automatically aware of events happening in the city.
+Player choices directly shape both short-term survival and long-term outcomes. Actions affect:
 
-Instead, information is discovered through:
-- Exploration (encountering protests, roadblocks)
-- Watching TV or media
-- Environmental storytelling
+- Grandpa’s health and survival
+- Player stress, morale, stamina, and hunger state
+- Financial stability and ability to pay rent
+- Access to supplies such as food and medicine
+- How difficult daily life becomes as dissent rises
 
-Discovered events are logged in a City Awareness Feed, allowing the player to track how the world is changing.
-
----
-
-##  Escalation Over Time
-
-As days progress, the game becomes increasingly difficult:
-
-- Costs rise (rent, food, medicine)
-- Grandpa requires more care if neglected
-- City dissent increases:
-  - More graffiti and environmental decay
-  - Roadblocks and restricted areas
-  - Changes in NPC behavior
-  - Limited store availability
+Small daily decisions accumulate over time. Missing meals, overworking, failing rent payments, neglecting Grandpa, or ignoring the changing city all build pressure that can reshape the player’s path.
 
 ---
 
-##  Emotional Gameplay Layer
+## Discovery-Based World Awareness
 
-The player develops a relationship with Grandpa through:
+The player is not automatically informed about everything happening in the city. Information is learned through interaction and observation, including:
 
-- Conversations
-- Time spent together
-- Care decisions (medicine, food, presence)
+- Exploring districts and encountering changes firsthand
+- Watching TV or checking other information sources
+- Environmental storytelling such as graffiti, decay, protests, and boarded locations
+- Changes in store access, roadblocks, and public behavior
 
-Ignoring Grandpa may result in:
-- Lower morale
-- Narrative consequences
-- Different endings
+This makes the world feel reactive rather than fully explained. The player must stay aware or risk being caught unprepared.
 
 ---
 
-##  Core Player Goal
+## Escalation Over Time
 
-The player must survive, maintain stability, and navigate the collapsing city while deciding what—and who—is worth prioritizing.
+As days progress, survival becomes more difficult. The city’s dissent increases, and the player begins to feel that pressure in everyday life through:
+
+- Rising financial strain
+- Greater pressure to work and maintain supplies
+- Increasing care demands tied to Grandpa
+- Environmental decay and visible unrest
+- Restricted access to certain places or resources
+- A harsher emotional atmosphere across the city
+
+The goal is for the player to feel the city worsening not through a single number alone, but through the lived experience of daily survival.
+
+---
+
+## Emotional Gameplay Layer
+
+Beyond survival mechanics, the game is built around emotional trade-offs. Grandpa is not just a background objective, but a constant personal responsibility that affects how the player feels about their choices.
+
+The relationship with Grandpa develops through:
+
+- Daily care decisions
+- Time spent with him
+- Providing medicine and food
+- Choosing when to prioritize him over work, money, or personal needs
+
+This creates a layer of emotional tension where the player is not only asking, “What is the optimal decision?” but also, “What kind of person am I becoming to survive?”
+
+---
+
+## Core Player Goal
+
+The player’s goal is to survive, maintain stability, care for Grandpa, and navigate a city that is gradually falling apart. Success comes from balancing personal survival with human responsibility while adapting to a world that becomes more hostile, expensive, and unstable over time.
